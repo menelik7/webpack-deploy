@@ -1,5 +1,4 @@
 import _ from 'lodash';
-import Artist from '../seeds/artist';
 import db from './db';
 
 /**
