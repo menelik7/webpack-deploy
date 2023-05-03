@@ -2,19 +2,6 @@ var webpack = require('webpack');
 var path = require('path');
 var htmlWebpackPlugin = require('html-webpack-plugin');
 
-const VENDOR_LIBS = [
-  '@faker-js/faker',
-  'lodash',
-  'react',
-  'react-dom',
-  'react-input-range',
-  'react-redux',
-  'react-router',
-  'redux',
-  'redux-form',
-  'redux-thunk',
-];
-
 module.exports = (env, argv) => {
   const mode = env.WEBPACK_SERVE ? 'development' : 'production';
 
