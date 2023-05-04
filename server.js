@@ -10,5 +10,5 @@ app.use(webpackMiddleware(webpack(webpackConfig)));
 const PORT = 3050;
 
 app.listen(PORT, () => {
-  console.log('App listening on ', PORT);
+  console.log('App listening on port', PORT);
 });
