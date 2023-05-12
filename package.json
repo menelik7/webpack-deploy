@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "14.21.3",
-    "npm": "6.14.18"
-  },
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && webpack --node-env production",
