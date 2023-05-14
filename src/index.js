@@ -9,6 +9,8 @@ import '../style/materialize.css';
 import '../style/react-range.css';
 import '../style/style.css';
 
+console.log('Test for another project with auth issues');
+
 const App = () => {
   const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
 
